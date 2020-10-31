@@ -5,7 +5,7 @@ from pathlib import Path
 from datetime import datetime 
 from io import StringIO, BytesIO
 from tablib import Dataset
-from box.core.utils import get_resource, get_resources
+from sw_utils.utils import get_resource, get_resources
 
 
 class Command(BaseCommand):

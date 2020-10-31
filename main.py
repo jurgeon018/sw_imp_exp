@@ -1,4 +1,4 @@
-from box.core.sw_imp_exp.main import * 
+from sw_utils.sw_imp_exp.main import * 
 
 from django.http import HttpResponse
 from django.core import serializers
@@ -35,8 +35,8 @@ import time
 import csv 
 import re 
 
-# from box.apps.sw_shop.sw_catalog.models import *
-from box.core.sw_content.models import *
+# from sw_shop.sw_catalog.models import *
+from sw_utils.sw_content.models import *
 
 __all__ = [
   "Parser",

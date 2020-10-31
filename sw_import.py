@@ -3,7 +3,7 @@ from datetime import datetime
 from pathlib import Path
 from io import StringIO, BytesIO
 from tablib import Dataset
-from box.core.utils import get_resource, get_resources
+from sw_utils.utils import get_resource, get_resources
 import os, shutil, glob, csv 
 
 from django.core.exceptions import ObjectDoesNotExist
