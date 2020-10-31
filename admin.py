@@ -43,4 +43,5 @@ class ExportAdmin(admin.ModelAdmin):
 
 # admin.site.register(Import, ImportAdmin)
 # admin.site.register(Export, ExportAdmin)
+# admin.site.register(ImportLog, ImportLogAdmin)
 
